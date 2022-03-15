@@ -1,0 +1,16 @@
+﻿using Xamarin.Forms;
+
+namespace HelloApp
+{
+    public partial class App : Application
+    {
+        public App()
+        {
+            InitializeComponent();
+            MainPage = new MainPage();
+        }
+        //...........
+    }
+}
+
+
